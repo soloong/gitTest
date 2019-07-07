@@ -2,4 +2,5 @@
 git checkout -b  Mybranch
 2、如果需要推送到服务器，需要将本地分支push
 git push origin MyBranch:MyBranch
-
+3、连接本地分支与远程分支
+ git push --set-upstream origin MyBranch
